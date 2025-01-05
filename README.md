@@ -2,6 +2,9 @@
 This is a Engine from a Youtube Tutorial. 
 The Youtuber is: Majoolwip (Link: https://www.youtube.com/watch?v=4iPEjFUZNsw&list=PL7dwpoQd3a8j6C9p5LqHzYFSkii6iWPZF&ab_channel=Majoolwip).
 
+This documentation has some visuel Problem look in the examples folder.
+
+
 Documentation: Creating a Simple Game Engine
 
 This documentation explains the core concepts of rendering, handling input, adding game objects, and implementing collision detection in a basic game engine using Kotlin. We'll use the example of creating and managing simple rectangles, one movable and one stationary.
