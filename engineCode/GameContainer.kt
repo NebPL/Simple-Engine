@@ -91,7 +91,7 @@ class GameContainer(manager: GameObjectManager) : Runnable {
                 renderer?.clear()
 
                 // FPS-Anzeige rendern
-                renderer?.drawText("Fps: $fps", 10, 10, 0xff0000ff.toInt())
+                //renderer?.drawText("Fps: $fps", 10, 10, 0xff0000ff.toInt())
 
                 //Updates All render objects
                 GameObjectCallRender(this,renderer!!)
