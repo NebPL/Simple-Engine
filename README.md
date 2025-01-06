@@ -36,6 +36,7 @@ Instantiate the object and add it to the GameObjectManager using addGameObject.
 
 Complete Example
 
+```
 class renderTest() : GameObject() {
     override var boundingBox: boundingBox = boundingBox(10, 10, 20, 20)
 
@@ -49,6 +50,8 @@ class renderTest() : GameObject() {
 }
 
 manager.addGameObject(renderTest())
+```
+
 
 2. Rendering
 
@@ -89,7 +92,7 @@ input: Manages user inputs.
 isKey: Checks if a specific key is pressed.
 
 Example
-
+```
 if (gc.input?.isKey(KeyEvent.VK_A) == true) {
     boundingBox.x -= 3
 }
@@ -102,7 +105,7 @@ if (gc.input?.isKey(KeyEvent.VK_W) == true) {
 if (gc.input?.isKey(KeyEvent.VK_S) == true) {
     boundingBox.y += 3
 }
-
+```
 Steps to Handle Input
 
 Access the input object from the GameContainer.
@@ -122,9 +125,9 @@ boundingBox: Defines the area of an object.
 Collision Manager: Manages all bounding boxes and detects overlaps.
 
 Example
-
+```
 e.collisionManager.addBoundingBox(boundingBox)
-
+```
 Here:
 
 The boundingBox of each object is registered with the collision manager.
@@ -150,7 +153,7 @@ Update: Handles game logic like movement and interactions.
 Render: Draws objects to the screen.
 
 Example
-
+```
 override fun update(gc: GameContainer, dt: Float) {
     // Handle input or game logic
 }
@@ -158,7 +161,7 @@ override fun update(gc: GameContainer, dt: Float) {
 override fun render(gc: GameContainer, r: renderer) {
     // Draw game objects
 }
-
+```
 Steps
 
 Define an update method to handle game logic.
